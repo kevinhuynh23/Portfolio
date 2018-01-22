@@ -22,12 +22,34 @@
          </div>
       </div>
 
-      <div class="container">
-      <h1 class="title" "text-center">Contact</h1>
+         <div class="container">
+            <h1 class="title text-center">Contact</h1>
+            <div class="container">
+                  <form action="action_page.php">
 
-      <p>
-         you can contact me by email: <a href="mailto:kevin.huynh23@outlook.com">kevin.huynh23@outlook.com</a>
-      </p>
+                     <label for="fname"> First Name </label>
+                     <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+                     <label for="lname"> Last Name </label>
+                     <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+                     <label for="state"> State </label>
+                     <select id="country" name="country">
+                        <option value="washington"> WA </option>
+                        <option value="california"> CA </option>
+                        <option value="oregon"> OR </option>
+                     </select>
+
+                     <label for="subject"> Subject </label>
+                     <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+                     <input type="submit" value="Submit">
+                  </form>
+               </div>
+            <p>
+               <br>
+               Or you can contact me directly at:: <a href="mailto:kevin.huynh23@outlook.com">kevin.huynh23@outlook.com</a>
+            </p>
 
       <p>
          Kevin Huynh<br>
